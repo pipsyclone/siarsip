@@ -1,5 +1,5 @@
 export const CONFIG = {
-	DIRECTORY: "public/files/",
+	DIRECTORY: "/files/",
 	ALLOWED_FILE_TYPE: [
 		"application/pdf",
 		"application/msword", // .doc
