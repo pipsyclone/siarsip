@@ -1,0 +1,16 @@
+1. Install NodeJS
+2. Buka cmd tulis perintah "node --v", kalo muncul versinya berarti berhasil
+3. Extract here siarsip.zip
+4. Nyalain apache sama mysql XAMPP
+5. Buat database dengan nama "siarsip"
+5. Buka vscode, open folder ke "siarsip"
+6. Buka terminal di vscode
+7. Tulis perintah :
+	> npm i --legacy-peer-deps
+	> npx prisma generate
+	> npx prisma db push
+	> npx prisma db seed
+	> npm run dev
+8. done, login pake :
+	> username: admin, password : admin123, buat masuk sebagai admin
+	> username: user1, password : user123, buat masuk sebagai pengguna biasa
